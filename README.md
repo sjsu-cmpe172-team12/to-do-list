@@ -4,7 +4,7 @@ To avoid getting charged by AWS, we've shut down our deployments and RDS. Please
 
 # **San Jose State University**
 
-## **Course:** Enterprise Software - CMPE172 / SPRING 2020
+## **Course:** Enterprise Software - CMPE172 / FALL 2020
 
 **Instructor:** Professor Babu Thomas <br />
 **Team Name:** Todolist - team 12 <br />
@@ -26,38 +26,36 @@ In order to manage team projects and tasks most effectively, having a ToDoList a
 
 ## App Setup
 
-1. Node JS 
-2. 
-3. Maven
+1. Node JS Runtime Environment
+2. VSCode for UI and Eclipse IDE for backend API
+3. Java 11 + Maven
+4. MySQL Workbench
 
 ## How To Run The Program Locally:
 
-
-### Client
-
-1. Open up a terminal and change directory (`cd`) to the project directory
-2. `cd` to 'client'
-3. Type `npm install` to install frontend dependencies
-4. Type `npm run start` to start client server
+Clone the project using git clone
 
 ### Server
-
 1. `cd` to the project directory.
-2. `cd` to server.
-3. Build and run the maven project: `mvn spring-boot:run`
-4. If backend fails to run due to failed MySQL connection, read note below:
+2. `cd` to '/backend'
+3. Have your database ready
+4. Right Click and choose 'Run As > Spring Boot App'
 
-**IMPORTANT NOTE:** Since we've closed our deployments, our RDS is no longer active and so the backend will not run. To run locally, you need to uncomment some lines in the server/src/main/resources/application.properties to connect to your local MySQL instance using your credentials
-
-The database schemas & dummy data is included in server/database folder
+### Database
+Since our AWS RDS and deployments have been shutdown to avoid charges, our backend will not run with the current setup. To run the app locally, please create a MySQL DB instance and connect it to the backend by updating file 'src/main/resources/application.properties' with your credentials
 
 ```
-    spring.datasource.url=jdbc:mysql://localhost:3306/todo?useLegacyDatetimeCode=false&serverTimezone=America/Los_Angeles
-
-    spring.datasource.username=<YOUR MYSQL INSTANCE USERNAME>
-
-    spring.datasource.password=<YOUR MYSQL INSTANCE PASSWORD>
+spring.datasource.url=
+spring.datasource.username=
+spring.datasource.password=
 ```
+
+### Client
+1. Open up a terminal and change directory (`cd`) to the project directory
+2. `cd` to 'to-do-list/backend/frontend'
+3. Run `npm install` to install node_modules
+4. Run `npm run start` to start client server on localhost:3000
+
 
 ## Project Documentation
 
