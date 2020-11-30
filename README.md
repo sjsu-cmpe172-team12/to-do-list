@@ -1,4 +1,4 @@
-# ** NOTE:**
+# **Note:**
 
 To avoid getting charged by AWS, we've shut down our deployments and RDS. Please refer to the demo video and our reports for the project details.
 
@@ -11,8 +11,8 @@ To avoid getting charged by AWS, we've shut down our deployments and RDS. Please
 **Team Members:**
 
 - Duy Le
-- My Anh
-- Nhi Nguyen
+- Anh Phan
+- Nhi Truong
 
 # Project Introduction
 In order to manage team projects and tasks most effectively, having a ToDoList application is a need. First, our ToDoList will help to hit their goals without scramble. It maps out steps and organizes all the details of works in one place. Second, a ToDoList helps to see where everything stands such as visualize work clearly and move work through multiple stages quickly. Third, ToDoList is a great access to hit deadlines thanks to creating a plan that shows you how the pieces of your project fit together, and helps you keep work on track as things change. Fourth, ToDoList nails your timing by viewing work on a calendar. It helps to spot holes and overlaps in your schedule and quickly make adjustments. Last but not least, ToDoList will save us so much time from manually writing down tasks or consistently remembering upcoming works because it stores tasks and automatically reminds us.
@@ -23,8 +23,8 @@ In order to manage team projects and tasks most effectively, having a ToDoList a
 
 ## App Setup
 
-1. NodeJS Runtime Environment
-2. Java 11
+1. Node JS 
+2. 
 3. Maven
 
 ## How To Run The Program Locally:
