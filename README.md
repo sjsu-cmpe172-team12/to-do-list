@@ -14,7 +14,12 @@ To avoid getting charged by AWS, we've shut down our deployments and RDS. Please
 - Anh Phan
 - Nhi Truong
 
-# App Demo Screenshot
+# App Demo
+
+### [Video Demo](https://www.youtube.com/watch?v=u0Ey3dxv-5E)
+[![](https://img.youtube.com/vi/u0Ey3dxv-5E/0.jpg)](https://www.youtube.com/watch?v=u0Ey3dxv-5E)
+
+### App Demo Screenshots
 ![Screen Shot 2020-11-29 at 10 21 20 PM](https://user-images.githubusercontent.com/28032881/100694677-68901d80-3344-11eb-906e-18cf16e06a62.png)
 ![Screen Shot 2020-11-29 at 10 21 32 PM](https://user-images.githubusercontent.com/28032881/100694685-6b8b0e00-3344-11eb-9a77-cd7e44df25df.png)
 ![Screen Shot 2020-11-29 at 10 21 40 PM](https://user-images.githubusercontent.com/28032881/100694712-7a71c080-3344-11eb-90b2-f460670a3c13.png)
@@ -72,6 +77,11 @@ spring.datasource.password=
 4. Run `npm run start` to start client server on localhost:3000
 
 ## Folder Structure
+<h4>Frontend/ Backend </h4>
+<p float="left">
+<img src="https://user-images.githubusercontent.com/47465901/101074520-add76980-3555-11eb-86cc-c27a80bdba6b.png" width = 300 hspace = 20>
+<img src="https://user-images.githubusercontent.com/47465901/101074636-d5c6cd00-3555-11eb-9b40-c8172f9e8b72.png" width = 300>
+</p>
 
 ## Project Documentation
 ### System Diagram
