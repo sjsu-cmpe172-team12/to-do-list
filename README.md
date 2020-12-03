@@ -43,8 +43,14 @@ Clone the project using git clone
 ### Server
 1. `cd` to the project directory.
 2. `cd` to '/backend'
-3. Have your database ready
-4. Right Click and choose 'Run As > Spring Boot App'
+3. Modify these files belows with **@CrossOrigin(origins="http://localhost:3000")** so the app can run on localhost
+```
+/backend/jwt/resource/JwtAuthenticationRestController.java
+/backend/todo/TodoJpaResource.java
+/backend/todo/TodoResource.java
+```
+4. Have your database ready
+5. Right Click and choose 'Run As > Spring Boot App'
 
 ### Database
 Since our AWS RDS and deployments have been shutdown to avoid charges, our backend will not run with the current setup. To run the app locally, please create a MySQL DB instance and connect it to the backend by updating file 'src/main/resources/application.properties' with your credentials
@@ -58,6 +64,10 @@ spring.datasource.password=
 ### Client
 1. Open up a terminal and change directory (`cd`) to the project directory
 2. `cd` to 'to-do-list/backend/frontend'
+3. Modify these files belows with **@CrossOrigin(origins="http://localhost:8080")** so the app can run on localhost
+```
+/frontend/src/Constants.js
+```
 3. Run `npm install` to install node_modules
 4. Run `npm run start` to start client server on localhost:3000
 
