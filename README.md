@@ -69,7 +69,7 @@ spring.datasource.password=
 ### Client
 1. Open up a terminal and change directory (`cd`) to the project directory
 2. `cd` to 'to-do-list/backend/frontend'
-3. Modify these files belows with **@CrossOrigin(origins="http://localhost:8080")** so the app can run on localhost
+3. Modify these files belows with **export const API_URL = 'http://localhost:8080'** so the app can run on localhost
 ```
 /frontend/src/Constants.js
 ```
