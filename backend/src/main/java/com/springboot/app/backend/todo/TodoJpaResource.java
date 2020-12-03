@@ -19,6 +19,7 @@ import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 import com.springboot.app.backend.todo.Todo;
 
 @CrossOrigin(origins="http://54.193.127.148:3000")
+//@CrossOrigin(origins="http://localhost:3000")
 @RestController
 public class TodoJpaResource {
 	

@@ -17,6 +17,7 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 
 @CrossOrigin(origins = "http://54.193.127.148:3000")
+//@CrossOrigin(origins="http://localhost:3000")
 @RestController
 public class TodoResource {
 

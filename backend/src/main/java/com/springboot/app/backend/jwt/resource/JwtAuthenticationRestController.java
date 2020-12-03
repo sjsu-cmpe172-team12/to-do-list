@@ -28,6 +28,7 @@ import com.springboot.app.backend.jwt.JwtUserDetails;
 
 @RestController
 @CrossOrigin(origins="http://54.193.127.148:3000")
+//@CrossOrigin(origins="http://localhost:3000")
 public class JwtAuthenticationRestController {
 
   @Value("${jwt.http.request.header}")
