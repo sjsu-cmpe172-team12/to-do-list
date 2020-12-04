@@ -7,7 +7,7 @@ To avoid getting charged by AWS, we've shut down our deployments and RDS. Please
 ## **Course:** Enterprise Software - CMPE172 / FALL 2020
 
 **Instructor:** Professor Babu Thomas <br />
-**Team Name:** Todolist - team 12 <br />
+**Team Name:** TodoList - Team 12 <br />
 **Team Members:**
 
 - Duy Le
@@ -89,10 +89,9 @@ spring.datasource.password=
 <img width="649" alt="Screen Shot 2020-11-30 at 12 34 10 AM" src="https://user-images.githubusercontent.com/28032881/100694335-b35d6580-3343-11eb-8f5a-478c07905b6e.png">
 In the system diagram, the todolist uses CSS3, HTML5 and JavaScript as a front-end. This was then linked to the middle-tier where we used the spring boot framework and Java. The entire application was then uploaded to a docker container and put on EC2 which was hosting our docker container. 
 
-### Database ERD
-![Screen Shot 2020-11-30 at 7 40 42 PM](https://user-images.githubusercontent.com/28032881/100694439-f28bb680-3343-11eb-8f81-c098550c015c.png)
-
 ### Class, Sequence and interaction diagrams
 ![Screen Shot 2020-11-30 at 7 42 18 PM](https://user-images.githubusercontent.com/28032881/100694563-31217100-3344-11eb-9588-365d93f1f3a0.png)
 ![Screen Shot 2020-11-30 at 7 42 52 PM](https://user-images.githubusercontent.com/28032881/100694594-40082380-3344-11eb-9794-1a69b27a6ff7.png)
 
+### Database ERD
+![Screen Shot 2020-11-30 at 7 40 42 PM](https://user-images.githubusercontent.com/28032881/100694439-f28bb680-3343-11eb-8f81-c098550c015c.png)
